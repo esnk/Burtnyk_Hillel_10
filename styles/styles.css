@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  text-align: center;
+  line-height: 50px;
+  background-color: rgb(34, 34, 34);
+  height: 50px;
+  color: aliceblue;
+  display: flex;
+}
+
+.menu li {
+  list-style: none;
+  width: 100px;
+  position: relative;
+}
+
+.menu a {
+  text-decoration: none;
+  display: block;
+  color: white;
+}
+
+.bg-b {
+  background-color: rgb(0, 56, 109);
+}
+
+.menu a:hover {
+  background-color: rgb(16, 82, 143);
+}
+
+.menu ul {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  display: none;
+}
+
+.menu li:hover > ul {
+  display: block;
+}
+
+.menu ul ul {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  background-color: rgb(0, 56, 109);
+}
